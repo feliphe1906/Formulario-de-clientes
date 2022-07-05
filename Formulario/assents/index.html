@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="loging-box"><br/><br/>
+        <h1>Cadastrar Cliente</h1>
+        <form action="form" id="form">
+           
+            <label for="NomeCompleto">
+                <span>Nome Completo:</span>
+                <input type="text" id="Nome" name="Nome" 
+                placeholder=" Nome completo " required>
+          
+          
+                <label for="Email">
+                    <span>E-mail:</span>
+                    <input type="Email" id="Email" name="Email" 
+                    placeholder=" Email " required>
+              
+            
+                    <label for="Telefone">
+                        <span>Telefone:</span>
+                        <input type="Telefone" id="Telefone" 
+                        name="Telefone" maxlength="12" 
+                        placeholder=" (DDD) 00000-0000 " required>
+
+                        <label for="Endereço">
+                            <span>Endereço:</span>
+                            <input type="text" id="Endereço" name="Endereço" 
+                            placeholder=" Rua/Avenida " required>
+                 
+               
+                    </label>
+                    <label for="Criar senha">
+                        <span>Criar senha:</span>
+                        <input type="Senha" id="Senha" name="Senha" 
+                        minlength="8" placeholder=" Senha " required>
+                    </label>
+          
+           
+                    <label for="confirmarSenha">
+                    <span>Confirmar senha:</span>
+                    <input type="confirmarSenha" id="confirmarSenha" 
+                    name="confirmarSenha" minlength="8" 
+                    placeholder=" Confirmar senha " required>
+         
+                </label>
+                <input type="submit" value="Cadastrar">
+    
+
+
+    
+    
+    
+</body>
+<script src="script.js"></script> 
+</html>
